@@ -7,6 +7,12 @@
     <title>Sorteador de Números</title>
 </head>
 <body>
+    <div class="banner" id="banner">
+        <div class="spinner" id="spinner"></div>
+            <span class="mensagem">Número sorteado com Sucesso</span>
+            <span id="valor-sorteado">0</span>
+            <button class="buttonbanner">Voltar</button>
+    </div>
     <section class="container">
         <div class="elements">
             <div class="texts">
@@ -18,7 +24,7 @@
                     <input type="number" id="min" placeholder="Mínimo">
                     <input type="number" id="max" placeholder="Máximo">
                 </div><!--divisao-input-->
-                <button id="sortear" onclick="sortear()">Sortear</button>
+                <button id="sorteio" onclick="sortear()">Sortear</button>
             </div><!--input-sorteio-->
         </div><!--elements-->
     </section>
